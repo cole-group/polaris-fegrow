@@ -1,0 +1,5 @@
+# script for gnina docking
+
+obabel rec_final.pdb -Orec.pdb
+
+./gnina -r rec.pdb -l in-94.sdf --autobox_ligand lig.pdb --seed 0 -o docked-94.sdf
