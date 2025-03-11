@@ -20,5 +20,5 @@ The provided reference ligand did not seem to provide a good vector off the pyri
 
 Molecules that could not be grown were attempted again by overlaying training structure `complex-79` with the MERS reference, and growing off the pyridine core.
 
-Finally, the remaining four structures were docked using gnina.
+Finally, the remaining four structures were docked using gnina (one of which was due to a protonation state mis-match between FEgrow and the provided SMILES).
 
